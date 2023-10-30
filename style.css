@@ -1,0 +1,276 @@
+body{
+         background: url('bg.jpg') no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover; 
+        /* background: linear-gradient(to bottom, #0066ff 0%, #66ff99 100%) ; */
+        height: 100%;
+        color: black;
+        overflow-x: hidden;
+        position: relative;
+        font-family: system-ui,'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    }
+.header{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+    
+}
+input{
+    font-weight: bold;
+    color:khaki;
+}
+.search-bar{
+    width: 500px;
+    height: 30px;
+    border-radius: 12px;
+    border: 3px solid rgb(245, 242, 242);
+    background-color: rgba(0, 0, 0, 0.27);
+}
+::placeholder{
+    color: rgb(173, 142, 178);
+    font-weight: bold;
+    text-align: center;
+}
+.search-icon{
+    
+    align-self: center;
+}
+.sbox{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid rgb(237, 232, 232);
+}
+.t{
+    font-size: 50px;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
+span{
+    font-size: 20px;
+ 
+}
+.d{
+    position: absolute;
+    top: 140px;
+    left: 80px;
+}
+
+.time-location{
+    display: flex;
+    justify-content: space-between ;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.day-date{
+    margin: 0px
+}
+
+.time{
+    font-size: 60px;
+    margin: 0px;
+}
+
+.location{
+    font-size: 70px;
+    font-stretch: expanded;
+    margin: 4px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.detail{
+    font-size: 20px;
+    position: absolute;
+    top: 240px;
+    left:50px ;
+}
+.weather-icon{
+    width: 200px;
+    height: 200px;
+}
+.name{
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    /* font-weight: bold; */
+    font-size: 25px;
+}
+.firstbox{
+    display: flex;
+    position: relative;
+    gap: 40px;
+    margin-top: 70px;
+}
+.day-temp{
+    font-size: 40px;
+    /* position: absolute;
+    top:10px ; */
+    margin-top: 110px;
+
+}
+/* .night{
+    position:absolute;
+    top: 100px;
+} */
+/* .night-temp{
+    position:absolute;
+    top: 95px;
+    font-size: 40px;
+} */
+hr{
+    /* width: 2px; */
+    height: 190px;
+    position: absolute;
+    left: 420px;
+    border: 1px solid white;
+}
+.h-icon{
+    width: 150px;
+    height: 150px;
+   
+}
+.w-content{
+    display: flex;
+    gap: 10px;
+    margin-left: 95px;
+    position: relative;
+}
+.h-name{
+    position: absolute;
+    top: 110px;
+    left: 25px;
+}
+.h-value{
+    position: absolute;
+    top: 120px;
+    left: 55px;
+    font-size: 30px;
+}
+.a-icon{
+    width: 130px;
+    height: 130px;
+    
+    /* position: absolute;
+    left: 200px; */
+}
+.a-name{
+    position: absolute;
+    top: 110px;
+    left:170px;
+    width: 200px;
+}
+.a-value{
+    position: absolute;
+    top: 120px;
+    left:200px;
+    width: 200px;
+    font-size: 30px;
+}
+.w-icon{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -38px;
+    left:310px;
+    
+}
+.w-name{
+    position: absolute;
+    top: 100px;
+    left:350px;
+    width: 200px;
+}
+.w-value{
+    position: absolute;
+    top: 118px;
+    left:400px;
+    width: 200px;
+    font-size: 30px;
+}
+.blackbox{
+    width: 400px;
+    height: 200px;
+    background-color:rgba(212, 123, 206, 0.426);
+    position: absolute;
+    /* border: 2px solid white; */
+    left: 1070px;
+    border-radius: 10px;
+    /* position: relative; */
+    /* box-shadow: rgb(182, 208, 235) 0px 20px 30px -10px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    
+}
+.rise,.set{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 80px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.set{
+    margin-top: -30px;
+}
+.s-time,.m-time{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top:-12px;
+}
+.s-time1,.m-time1{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top:-12px;
+}
+.footer{
+    width: 100%;
+    height: 220px;
+    background-color:transparent;
+    margin-top: 8px ;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.card1{
+    width: 250px;
+    height: 200px;
+    /* background-color: white; */
+    background-color: transparent;
+    border: 2px solid purple;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: relative;
+    text-align: center;
+   
+    
+}
+.diff-days1,.diff-days2,.diff-days3,.diff-days4,.diff-days5{
+    color: black;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.cimg{
+    width:140px ;
+    position: absolute;
+    left: 45px;
+    top: 25px;
+}
+.ctemp{
+    position: absolute;
+    top: 145px;
+    left: 100px;
+    color: black;
+    font-size: large;
+}
+.temp{
+    position: relative;
+}
+.day{
+    font-weight: bold;
+    position: absolute;
+    bottom:70px;
+    
+}
